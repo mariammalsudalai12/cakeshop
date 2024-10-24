@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 3px brown;
+    position: sticky;
+    top: 0;
+}
+.nav-logo{
+    display: flex;
+}
+.nav-logo img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 30px;
+    border-radius: 100px;
+    border: 4px solid rgba(220, 20, 60, 0.589);
+    box-shadow: 4px 4px 3px 3px darkred;
+    }
+.nav-logo h1{
+    font-size: 40px;
+    color:honeydew;
+    margin: 12px;
+    margin-left: -20px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-items li{
+    margin: 30px 25px;
+}
+.nav-items a{
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight:lighter;
+}
+.nav-items a:hover{
+    color: darkred;
+}
+.nav-icons{
+    display: flex;
+    margin-right: 50px;
+}
+.nav-icons i{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: honeydew;
+    margin: 20px 5px;
+    border: 1px solid rgba(139, 0, 0, 0.24);
+    border-radius: 60px;
+    box-shadow: 1px 2px 5px rgba(139, 0, 0, 0.24);
+}
+.nav-icons i:hover{
+    color: darkred;
+}
+.home-content{
+    position: relative;
+    z-index: -1;
+}
+.img-text{
+    position: absolute;
+    margin-top: -450px;
+    left: 400px;
+    text-align: center;
+    z-index: -1;
+    }
+.img-text h1{
+    color:honeydew;
+    font-size: 60px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.home-content img{
+    filter: blur(3px);
+}
+.img-text p{
+    color: honeydew;
+    font-size: 30px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+}
+.img-text button{
+    background-color: chocolate;
+    color: honeydew;
+    width: 160px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-top: 40px;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+}
+.img-text button:hover{
+    background-color: rgb(139, 0, 0);
+}
+.our-cakes{
+    height: 700px;
+    background-color:rgba(240, 230, 140, 0.74);
+    margin-top: -40px;
+    
+}
+.cake-orders{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.cakes{
+    margin: 10px 45px;
+}
+
+.cakes img{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    border-radius: 200px;
+    box-shadow: 5px 5px 10px chocolate;
+}
+.cakes img:hover{
+    transform:scale(1.1);
+    transition-duration: 0.7s;
+}
+.cakes h2{
+    font-size: 20px;
+    color: chocolate;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+}
+.cakes p{
+    font-size: 15px;
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.cakes button{
+    background-color: chocolate;
+    color:rgba(0, 0, 0, 0.486);
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: honeydew;
+    font-size: 15px;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+    margin-top: 30px;
+}
+.cakes button:hover{
+    background-color: darkred;
+}
+.our-cakes h1{
+    font-size: 50px;
+    color:chocolate;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+.head h1{
+    background-color: rgba(210, 105, 30, 0.815);
+    width: 100%;
+    height: 90px;
+    font-size: 50px;
+    color:honeydew;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-bottom:1px solid darkred;
+}
+.categories{
+    display: flex;
+   }
+   .cate-head{
+   display: flex;
+   justify-content: space-between;
+   }
+   .cate-head h2{
+    color:chocolate;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+    margin-top: 30px;
+   }
+   .cate-head h2 span{
+    color: darkred;
+   }
+   .cate-head a{
+    margin: 30px;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+   }
+   .cate-head a:hover{
+    color: chocolate;
+   }
+
+.cake-cate{
+    border: 1px solid rgba(139, 0, 0, 0.575);
+    margin-top: 60px;
+    margin: 10px 15px 0px 13px;
+}
+.cake-cate img{
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px;
+    }
+    
+    .cake-cate h3{
+        color: honeydew;
+        background-color: chocolate;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        line-height: 60px;
+        margin-left: 20px;
+        margin-top: -30px;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .cake-cate h3:hover{
+        background-color: darkred;
+    }
+    
+    .pro-head{
+        display: flex;
+        justify-content: space-between;
+        }
+    .pro-head h2{
+        color:honeydew;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+    margin-top: 30px;
+    }
+    .pro-head h2 span{
+        color: darkred;
+    }
+    .pro-head a{
+        margin: 30px;
+        color: black;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+       }
+       .pro-head a:hover{
+        color: chocolate;
+       }
+       .products{
+        background-color: rgba(210, 105, 30, 0.842);
+        height: 1150px;
+        margin-top: 40px;
+        
+       }
+       .item-rates{
+        background-color: white;
+        margin: 20px 20px;
+        box-shadow:  0px 0px 3px 3px white;
+        text-align: center;
+        
+       }
+       .pro-items{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        }
+       .item-rates img{
+        width: 292px;
+        height: 290px;
+       }
+       .item-rates h3{
+          color: chocolate;
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 20px;
+       }
+       .item-rates p{
+        font-size: 17px;
+        color: black;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+       }
+       .rate-icon i{
+        color: chocolate;
+        margin-top: 10px;
+       }
+       .item-rates button{
+        background-color: chocolate;
+    color:rgba(0, 0, 0, 0.486);
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: honeydew;
+    font-size: 13px;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+    margin-top: 20px;
+    margin-bottom: 30px;
+       }
+       .item-rates button:hover{
+        background-color: darkred;
+       }
+       .about-head h1{
+       
+        width: 100%;
+        height: 90px;
+        font-size: 50px;
+    color:chocolate;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 40px;
+       }
+       .shop-about{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       .about-img img{
+        margin: 30px;
+        width: 700px; 
+        height: 500px;
+       }
+       .about-det p span{
+        color: black;
+        font-size: 30px;
+        }
+.about-det p{
+    font-size: 19px;
+    margin-top: 70px;
+    font-style: italic;
+    line-height: 30px;
+} 
+.about-det button{
+    background-color: chocolate;
+    color: honeydew;
+    width: 160px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-top: 40px;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+    font-size: 15px;
+}  
+.about-det button:hover{
+    background-color: darkred;
+}
+.our-gallery{
+    border-bottom: 1px solid black;
+}
+.our-gallery h2{
+    color:chocolate;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.card-image{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.imgbx img{
+    width: 350px;
+    height: 350px;
+    padding: 30px 10px;
+    margin: 30px;
+}
+.imgbx img:hover{
+    transform:scale(1.1);
+    transition-duration: 0.3s;
+}
+.img-icons{
+    width: 350px;
+    height: 60px;
+    background-color: rgb(210, 105, 30);
+    margin: 40px;
+    margin-top: -64px;
+    z-index: 3;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+    
+}
+.img-icons i{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: honeydew;
+    margin: 10px 5px;
+    border: 1px solid rgba(139, 0, 0, 0.24);
+    border-radius: 60px;
+    box-shadow: 1px 2px 5px rgba(139, 0, 0, 0.24);
+}
+.img-icons i:hover{
+    background-color: darkred;
+    transform: scale(0.9);
+    transition-duration: 0.2s;
+}
+.head h1{
+    background-color: rgba(210, 105, 30, 0.815);
+    width: 100%;
+    height: 90px;
+    font-size: 50px;
+    color:honeydew;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-bottom:1px solid darkred;
+    margin-top: 60px;
+}
+.c-reviews{
+    display: flex;
+ margin:30px;
+ margin-top: 30px;
+}
+.reviews{
+    margin: 60px 20px;
+    background-color:chocolate;
+    height: 90px;
+    width: 400px;
+    border: 1px solid darkred;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+
+}
+.reviews img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+.reviews h3{
+    font-size: 25px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: -70px;
+}
+.reviews p{
+    font-size: 16px;
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+.client-det{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.clients{
+    background-color: white;
+    width: 393px;
+    height: 180px;
+    border: 1px solid darkred;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+    margin: 17px;
+}
+.clients:hover{
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+}
+.clients img{
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    padding: 20px;
+}
+.clients h4{
+    font-size: 26px;
+    margin-left: 140px;
+    margin-top: -100px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.clients h5{
+    font-size: 17px;
+    margin-left: 140px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clients p{
+    font-size: 15px;
+   margin-left: 20px;
+   margin-top: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+}
+.blogs-page h1{
+    background-color: rgba(210, 105, 30, 0.815);
+    width: 100%;
+    height: 90px;
+    font-size: 50px;
+    color:honeydew;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-bottom:1px solid darkred;
+    margin-top: 60px;
+}
+.our-blogs{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.blogs-det{
+    margin: 120px 30px;
+    background-color:chocolate;
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blogs-det img{
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: -80px; 
+    margin-right: 40px;   
+}
+.blogs-icons{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+}
+.blogs-icons i{
+    font-size: 17px;
+    margin: 20px;
+    color: black;
+    }
+.blogs-det h3{
+    font-size: 20px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+.blogs-det p{
+    margin: 14px;
+    line-height: 30px;
+}
+.blogs-det button{
+    background-color: white;
+    color: chocolate;
+    width: 160px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.blogs-det button:hover{
+    background-color: darkred;
+    color: honeydew;
+}
+.contact-det{
+    display: flex;
+}
+.contacts i{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    color: honeydew;
+    border: 1px solid rgba(139, 0, 0, 0.24);
+    border-radius: 60px;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+    margin-top: 15px;
+}
+.contacts{
+    margin: 60px 50px;
+    background-color:chocolate;
+    height: 170px;
+    width: 350px;
+    border: 1px solid rgba(139, 0, 0, 0.733);
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+    text-align: center;
+}
+.contacts i:hover{
+    color: darkred;
+}
+.contacts h5{
+    font-size: 20px;
+    color: honeydew;
+    margin-top: 10px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.contacts p{
+    color: honeydew;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title h3{
+    color:chocolate;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.form-det{
+    display: flex;
+}
+.user-form{
+    background-color: chocolate;
+    display: flex;
+    flex-wrap: wrap;
+    width: 51%;
+    margin: 30px;
+}
+.user-form input{
+    width: 250px;
+    height: 40px;
+    margin: 30px;
+    border: none;
+    font-size: 17px;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+    padding-left: 10px;
+}
+.user-form textarea{
+    margin: 30px;
+    border: none;
+    font-size: 17px;
+    box-shadow: 2px 5px 3px rgba(139, 0, 0, 0.534);
+    padding-left: 10px;
+}
+.form-det iframe{
+    margin-top: 29px;
+}
